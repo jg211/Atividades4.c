@@ -8,6 +8,6 @@ int main() {
         soma = soma + numero;
         }
     }
-printf("Soma: %d\n", Soma);
+printf("Soma: %d\n", soma);
 return 0;
 }
