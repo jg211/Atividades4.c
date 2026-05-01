@@ -2,12 +2,16 @@
 
 int main() {
     int i, numero, soma = 0;
-    for(i = 1; i <+5 ; i++){
+
+    for (i = 0; i < 5; i++) {
         scanf("%d", &numero);
-        if(numero > 0){
-        soma = soma + numero;
+
+        if (numero > 0) {
+            soma += numero;
         }
     }
-printf("Soma: %d\n", soma);
-return 0;
+
+    printf("Soma: %d\n", soma);
+
+    return 0;
 }
