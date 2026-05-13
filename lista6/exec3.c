@@ -3,11 +3,11 @@
 int main() {
 int numeros[10];
 int pos, maior;
- for(pos = 0; pos < 8; pos++){
+ for(pos = 0; pos < 10; pos++){
      printf("Digite o número da posição %i: ", pos);
      scanf("%i", &numeros[pos]);
   }
- for(pos = 0; pos < 8; pos++){
+ for(pos = 0; pos < 10; pos++){
      if(numeros[pos] == 1){
       maior =  numeros[pos];
  }else{
