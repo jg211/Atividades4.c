@@ -7,15 +7,12 @@ int pos, maior;
      printf("Digite o número da posição %i: ", pos);
      scanf("%i", &numeros[pos]);
   }
+ maior = numeros[0];
  for(pos = 0; pos < 10; pos++){
-     if(numeros[pos] == 1){
-      maior =  numeros[pos];
- }else{
-     if(numeros[pos] > maior){
-     maior = numeros[pos];
- }
- }
+  if(numeros[pos] > maior){
+   maior = numeros[pos];
   }
+ }
 printf("Maior valor = %d\n", maior);
   return 0;
 }
